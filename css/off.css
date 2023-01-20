@@ -1,0 +1,117 @@
+div.off {
+  width: 85%;
+  border-radius: 15px;
+  border: 3px solid whitesmoke;
+  height: auto;
+  margin-top: 20px;
+}
+div.off > div {
+  width: 210px;
+  height: inherit;
+}
+div.off > div.rd1 {
+  border-left: 2px solid whitesmoke;
+  vertical-align: top;
+}
+div.off > div.rd2 {
+  border-left: 2px solid whitesmoke;
+}
+div.off > div.rd3 {
+  border-left: 2px solid whitesmoke;
+}
+div.off > div.rd4 {
+  border-left: 2px solid whitesmoke;
+}
+div.off > div.rd5 {
+  border-left: 2px solid whitesmoke;
+}
+div.off > div.rdh {
+  width: inherit;
+  height: 100px;
+  line-height: 100px;
+  font-family: boldy;
+  font-size: 18px;
+}
+div.off > div.rdh > h3{
+  display: inline-block;
+}
+div.off > div.rdh > i {
+  color: crimson;
+  position: relative;
+  top: 4px;
+  padding-left: 5px;
+}
+div.off > div.rd1 > a > div > img {
+  width: 150px;
+}
+div.off > div.rd2 > a > div > img {
+  width: 150px;
+}
+div.off > div.rd3 > a > div > img {
+  width: 150px;
+}
+div.off > div.rd4 > a > div > img {
+  width: 150px;
+}
+div.off > div.rd5 > a > div > img {
+  width: 150px;
+}
+div.off > div.rd6 > a > div > img {
+  width: 150px;
+}
+div.rdf {
+  width: inherit;
+  height: 100px;
+}
+div.rdf > a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: rgb(0, 191, 191);
+  font-family: boldy;
+  font-size: 16px;
+}
+div.rdf > a > i {
+  position: relative;
+  top: 3px;
+}
+div.off > div.rd1 > a {
+  display: block;
+}
+div.off > div.rd2 > a {
+  display: block;
+}
+div.off > div.rd6 > a {
+  display: block;
+}
+div.off > div.rd1 > a > div {
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid whitesmoke;
+  margin-right: -4px;
+}
+div.off > div.rd1 > a > div.lit {
+  padding: 20px 0px;
+}
+div.off > div.rd2 > a > div {
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid whitesmoke;
+  margin-right: -4px;
+}
+div.off > div.rd2 > a > div.lit {
+  padding: 20px 0px;
+}
+div.off > div.rd6 > a > div {
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid whitesmoke;
+}
+div.off > div.rd6 > a > div.lit {
+  padding: 20px 0px;
+}
+div.off > div > a > div.liti {
+  border-bottom: 0px;
+  padding-top: 20px;
+}

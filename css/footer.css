@@ -1,0 +1,304 @@
+footer {
+  border-top: 1px solid whitesmoke;
+  width: 100%;
+  margin-top: 35px;
+}
+div.fthd {
+  width: 100%;
+  height: 105px;
+  padding-top: 35px;
+}
+div.fthd > div {
+  width: 50%;
+  height: 70px;
+  vertical-align: top;
+}
+div.fthd > div:nth-last-of-type(1) {
+  margin-right: -10px;
+  text-align: left;
+  padding-left: 20px;
+}
+div.fthd > div:nth-last-of-type(2) {
+  text-align: right;
+  padding-right: 20px;
+}
+div.fthd > div > img {
+  display: block;
+  width: 114px;
+}
+div.fthd > div > span {
+  display: inline-block;
+  font-family: boldy;
+  font-size: 12px;
+  color: #5f5f5f;
+  margin-top: 20px;
+}
+div.fthd > div > div {
+  background-color: #9e9fb1;
+  border-radius: 25px;
+  width: 2px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+div.fthd > div:nth-last-of-type(1) > div {
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 0px;
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  line-height: 40px;
+}
+div.fthd > div:nth-last-of-type(1) > div > a {
+  display: block;
+  color: #9e9fb1;
+  font-family: boldy;
+  font-size: 14px;
+}
+div.fthd > div:nth-last-of-type(1) > div > a > i {
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+div.icn {
+  width: 100%;
+  height: 104px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 32px 0px;
+}
+div.icn > div {
+  width: 20%;
+  height: inherit;
+  margin-left: -5px;
+  vertical-align: top;
+}
+div.icn > div > img {
+  width: 56px;
+  display: block;
+  margin: 20px auto 0px auto;
+}
+div.icn > div > span {
+  font-family: boldy;
+  font-size: 12px;
+  color: #5f5f5f;
+  margin-top: 20px;
+}
+div.eti {
+  width: 100%;
+  padding: 0px 20px;
+  margin-bottom: 32px;
+}
+div.eti > div {
+    text-align: right;
+    width: 25%;
+    margin-left: -5px;
+    height: inherit;
+    vertical-align: top;
+}
+div.eti > div > h4{
+    font-family: boldy;
+    text-align: right;
+    color: #424750;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+div.eti > div>a{
+    text-align: right;
+    display: block;
+    margin-bottom: 20px;
+    font-family: boldy;
+    font-size: 14px;
+    color: #9e9fb1;
+}
+div.eti > div >div:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+div.eti > div >div:nth-of-type(1)>a{
+    display: inline-block;
+}
+div.eti > div >div:nth-of-type(1)>a>i{
+    font-size: 35px;
+    color: #9e9fb1;
+    margin-left: 40px;
+}
+div.eti > div >div:nth-of-type(3){
+    width: 48px;
+    height: 48px;
+    background-color:#E0E0E6;
+    border-radius: 10px;
+    line-height: 48px;
+    text-align: center;
+    font-family: boldy;
+    font-size: 14px;
+    transition: 300ms;
+}
+div.eti > div >div:nth-of-type(3)>a{
+    display: block;
+    height: inherit;
+    width: inherit;
+    color: white;
+}
+div.eti > div >div:nth-of-type(3):hover{
+    background-color:#EF394E;
+    transition: 300ms;
+}
+div.eti > div >div:nth-of-type(2){
+    vertical-align: top;
+}
+div.eti > div >div:nth-of-type(2)>input{
+    font-family: boldy;
+    height: 48px;
+    width: 262px;
+    border: 0px;
+    background-color: whitesmoke;
+    padding: 0px 20px ;
+    border-radius: 10px;
+}
+div.dwnl{
+    width:1488px;
+    height: 76px;
+    padding: 16px 20px 8px 20px;
+    border-radius: 10px;
+    background-color: #3C4B6D;
+    text-align: right;
+    margin-bottom: 25px;
+}
+div.dwnl>img{
+    width: 44px;
+    vertical-align: middle;
+}
+div.dwnl>h3{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 22px;
+    color: white;
+    vertical-align: middle;
+    font-family: boldy;
+    margin-left: 400px;
+}
+div.dwnl>a{
+    display: inline-block;
+}
+div.dwnl>a>img{
+    width: 150px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+div.dwnl>a:nth-last-of-type(1)>img{
+    border-radius: 5px;
+    background-color: white;
+    width: 44px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+div.etemad{
+    width: 1488px;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    padding:30px 0px ;
+}
+div.etemad>div:nth-of-type(1){
+    width: 50%;
+    text-align: right;
+}
+div.etemad>div:nth-of-type(2){
+    vertical-align: top;
+    width: 50%;
+    margin-right: -5px;
+    text-align: left;
+}
+div.etemad>div:nth-of-type(1)>h4{
+    font-family: boldy;
+    font-size: 14px;
+    color: #424750;
+    margin-bottom: 20px;
+}
+div.etemad>div:nth-of-type(1)>p{
+    font-family: boldy;
+    text-align: justify;
+    font-size: 12px;
+    color: #9e9fb1;
+    line-height: 35px;
+}
+div.etemad>div:nth-of-type(1)>a{
+    display: inline-block;
+    font-family: boldy;
+    font-size: 13px;
+    color: #5f5f5f;
+}
+div.etemad>div:nth-of-type(1)>a>i{
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    font-size: 13px;
+    color:rgb(0, 185, 185);
+}
+div.etemad>div:nth-of-type(2)>a{
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    padding: 16px;
+    border-radius: 10px;
+    border:1px solid rgb(204, 204, 204);
+    margin-right: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+div.etemad>div:nth-of-type(2)>a>img{
+    width: 75px;
+}
+div.etemad>div:nth-of-type(2)>a:nth-of-type(2)>img{
+    width: 60px;
+}
+div.an{
+    width: 100%;
+    height: 80px;
+    font-family: boldy;
+    font-size: 12px;
+    color: #9e9fb1;
+    line-height: 80px;
+}
+div.cmp{
+    width: 100%;
+    height: 160px;
+    background-color: #F1F2F4;
+}
+div.cmp>div{
+    display: block;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+div.cmp>div:nth-of-type(1)>div{
+    width: 12.5%;
+    height: inherit;
+    margin-left: -5px;
+    border-left: 1px solid rgb(197, 197, 197);
+    vertical-align: top;
+    line-height: 85px;
+}
+div.cmp>div:nth-of-type(2)>div{
+    width: 11.1%;
+    height: inherit;
+    margin-left: -5px;
+    border-left: 1px solid rgb(197, 197, 197);
+    vertical-align: top;
+    line-height: 85px;
+}
+div.cmp>div:nth-of-type(2)>div>img{
+    height: 20px;
+}
+div.cmp>div:nth-of-type(2)>div:nth-last-of-type(1)>img{
+    height: 16px;
+}
+div.cmp>div:nth-of-type(1)>div>img{
+    height: 20px;
+}

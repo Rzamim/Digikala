@@ -1,0 +1,85 @@
+div.bestseller {
+  width: 85%;
+  padding: 16px 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border: 3px solid whitesmoke;
+}
+div.bestsellerhead {
+  display: block;
+  position: relative;
+  margin-bottom: 50px;
+}
+div.bestsellerhead > h3 {
+  display: inline-block;
+  font-family: boldy;
+}
+div.bestsellerhead > i {
+  color: rgb(238, 203, 0);
+  font-size: 22px;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+div.bestsellerhead > a {
+  width: 100px;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  display: inline-block;
+  font-family: boldy;
+  color: #45cbdb;
+  font-size: 14px;
+}
+.chngeht {
+  height: 298px;
+}
+div.swiper.mybestseller.chngeht > div.swiper-wrapper > div.swiper-slide {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.mhsul {
+  width: inherit;
+}
+div.mhsul > a {
+    text-align: right;
+    display: block;
+    width: inherit;
+}
+div.mhsul > a > img{
+    width: 86px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+div.mhsul > a > span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #45cbdb;
+    font-family: boldy;
+    font-size: 30px;
+    margin-left: 20px;
+}
+div.mhsul > a > p{
+    padding-top: 20px;
+    height: 86px;
+    vertical-align: middle;
+    width:158px ;
+    display: inline-block;
+    font-family: boldy;
+    font-size: 11px;
+    color: black;
+    border-bottom: 2px solid whitesmoke;
+}
+div.mhsul.nbr > a > p{
+    padding-top: 20px;
+    height: 86px;
+    vertical-align: middle;
+   width:158px ;
+    display: inline-block;
+    font-family: boldy;
+    font-size: 11px;
+    color: black;
+    border: none;
+}

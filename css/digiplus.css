@@ -1,0 +1,150 @@
+div.digiplus {
+  width: 100%;
+  height: 388px;
+  margin-top: 24px;
+}
+div.digiplus > div.digi {
+  width: 85%;
+  height: inherit;
+  padding: 16px;
+  background-color: #941b80;
+  border-radius: 15px;
+  text-align: center;
+}
+div.digiplus > div.digi > div.dip1 {
+  text-align: right;
+  height: 100%;
+  width: 30%;
+  background-image: url(../images/digiplus/plus-widget.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+  margin-left: 4%;
+  vertical-align: top;
+}
+div.digiplus > div.digi > div.dip2{
+  height: 100%;
+  width: 32%;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  vertical-align: top;
+}
+div.digiplus > div.digi > div.dip2:nth-of-type(3) {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 100%;
+  width: 32%;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+div.digiplus > div.digi > div.dip1 > div.spec {
+  width: 100%;
+  font-family: boldy;
+  font-size: 13px;
+  color: white;
+  padding-top: 5px;
+}
+div.digiplus > div.digi > div.dip1 > a {
+  display: inline-block;
+  color: white;
+  padding-top: 10px;
+  font-family: boldy;
+  font-size: 12px;
+}
+div.digiplus > div.digi > div.dip1 > a > div.spec2 {
+  text-align: center;
+  line-height: 40px;
+  width: 90px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+div.digiplus > div.digi > div.dip1 > a > div.spec2 > i {
+  padding-right: 4px;
+  font-size: 13px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii1,
+div.dipii2 {
+  text-align: right;
+  width: 49%;
+  height: inherit;
+  line-height: 40px;
+  vertical-align: top;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii1 > h4 {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  font-family: boldy;
+  font-size: 16px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii1 > i {
+  color: #941b80;
+  position: relative;
+  top: 2px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii1,
+div.dipii2 {
+  text-align: right;
+  width: 49%;
+  height: inherit;
+  line-height: 40px;
+  vertical-align: top;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii1 > h4 {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  font-family: boldy;
+  font-size: 16px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii1 > i {
+  color: #941b80;
+  position: relative;
+  top: 3px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii2 {
+  text-align: left;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii2 > a {
+  font-size: 11px;
+  color: #941b80;
+  font-family: boldy;
+}
+div.digiplus > div.digi > div.dip2 > div.dipii > div.dipii2 > a > i {
+  position: relative;
+  top: 2px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipp {
+  width: 100%;
+  height: 300px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipp > a {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin: 15px 5px 15px 5px;
+}
+div.digiplus > div.digi > div.dip2 > div.dipp > a > img {
+  width: 116px;
+}

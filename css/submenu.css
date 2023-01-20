@@ -1,0 +1,240 @@
+div.submenu {
+  display: none;
+  position: absolute;
+  width: calc(100vw - 50px);
+  height: 500px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 3px rgba(47, 47, 47, 0.388);
+  top: 44px;
+  border-bottom-left-radius: 13px;
+}
+li.right:hover > div.submenu {
+  display: inline-block;
+}
+div.submenu > div.subi {
+  direction: ltr;
+  width: 13%;
+  height: inherit;
+  background-color: white;
+  margin-left: -4px;
+  vertical-align: top;
+  border-left: 1px solid whitesmoke;
+  overflow-y: scroll;
+}
+div.submenu > div.subi > div {
+  display: block;
+  width: 100%;
+  min-height: 60px;
+  line-height: 55px;
+  padding: 0px 10px 0px 0px;
+}
+div.submenu > div.subi > div:nth-of-type(3) {
+  line-height: 20px;
+}
+div.submenu > div.subi > div > a {
+  width: inherit;
+  height: inherit;
+  color: black;
+}
+div.submenu > div.subi > div > a > span {
+  font-family: boldy;
+  font-weight: lighter;
+  font-size: 12px;
+}
+div.submenu > div.subi > div > a > span > i {
+  padding-left: 10px;
+  position: relative;
+  top: 3px;
+  font-size: 18px;
+}
+div.submenu > div.subi > div:hover > a {
+  color: crimson;
+}
+div.submenu > div.subi > div.subi1 > div.sobi1 {
+  display: none;
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi3 > div.sobi1 {
+  display: none;
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi5 > div.sobi1 {
+  display: none;
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi7 > div.sobi1 {
+  display: none;
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi9 > div.sobi1 {
+  display: none;
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi11 > div.sobi1 {
+  display: none;
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi2 > div.sobi2 {
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi4 > div.sobi2 {
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi6 > div.sobi2 {
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi8 > div.sobi2 {
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.submenu > div.subi > div.subi10 > div.sobi2 {
+  width: 87%;
+  height: inherit;
+  background-color: white;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.subhd {
+  width: 100%;
+  height: 30px;
+  display: block;
+  line-height: 20px;
+  padding: 10px 10px;
+  font-family: boldy;
+  font-size: 12px;
+}
+div.subhd > a {
+  color: rgb(40, 40, 40);
+}
+div.subhd > a > i {
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+  font-size: 13px;
+}
+div.mhsyl {
+  vertical-align: top;
+  width: 250px;
+  height: 470px;
+  padding: 20px 10px;
+}
+div.mhsyl > a {
+  display: block;
+  width: 230;
+  height: 15px;
+  line-height: 15px;
+  font-family: boldy;
+  color: #9e9fb1;
+  margin: 10px 0px;
+  font-size: 11px;
+  font-weight: bold;
+}
+div.mhsyl > a.motft {
+  color: black;
+  height: 25px;
+  font-size: 13px;
+}
+div.motf {
+  position: relative;
+  top: 5px;
+  width: 2px;
+  height: 15px;
+  background-color: crimson;
+  margin-left: 10px;
+}
+div.mhsyl > a:hover {
+  color: crimson;
+}
+li.right>div.submenu>div.subi>div.subi1:hover>div.sobi1{
+  display: block;
+}
+div.submenu > div.subi > div.subi3:hover > div.sobi1{
+  display: block;
+ 
+}
+div.submenu > div.subi > div.subi5:hover > div.sobi1{
+  display: block;
+ 
+}
+div.submenu > div.subi > div.subi7:hover > div.sobi1{
+  display: block;
+ 
+}
+div.submenu > div.subi > div.subi9:hover > div.sobi1{
+  display: block;
+ 
+}
+div.submenu > div.subi > div.subi11:hover > div.sobi1{
+  display: block;
+}
+div.submenu > div.subi > div.subi2:hover > div.sobi2{
+  display: block;
+}
+div.submenu > div.subi > div.subi4:hover > div.sobi2{
+  display: block;
+}
+div.submenu > div.subi > div.subi6:hover > div.sobi2{
+  display: block;
+}
+div.submenu > div.subi > div.subi8:hover > div.sobi2{
+  display: block;
+}
+div.submenu > div.subi > div.subi10:hover > div.sobi2{
+  display: block;
+}
+
