@@ -57,6 +57,13 @@ div.fthd > div:nth-last-of-type(1) > div > a {
   color: #9e9fb1;
   font-family: boldy;
   font-size: 14px;
+  border-radius: 15px;
+  transition: 250ms;
+}
+div.fthd > div:nth-last-of-type(1) > div > a:hover {
+    color: white;
+    background-color: #EF394E;
+    transition: 250ms;
 }
 div.fthd > div:nth-last-of-type(1) > div > a > i {
   padding-right: 5px;
@@ -109,10 +116,15 @@ div.eti > div > h4{
 div.eti > div>a{
     text-align: right;
     display: block;
-    margin-bottom: 20px;
+    margin:0px 0px 20px 200px;
     font-family: boldy;
     font-size: 14px;
     color: #9e9fb1;
+    transition: 100ms;
+}
+div.eti > div>a:hover{
+    color: #EF394E;
+    transition: 100ms;
 }
 div.eti > div >div:nth-of-type(1){
     width: 100%;
@@ -123,11 +135,33 @@ div.eti > div >div:nth-of-type(1){
 }
 div.eti > div >div:nth-of-type(1)>a{
     display: inline-block;
+    margin-left: 40px;
+    height: 35.4px;
 }
 div.eti > div >div:nth-of-type(1)>a>i{
     font-size: 35px;
     color: #9e9fb1;
-    margin-left: 40px;
+    transition: 300ms;
+}
+div.eti > div >div:nth-of-type(1)>a:hover:nth-of-type(1)>i{
+    font-size: 35px;
+    color: #A53D9B;
+    transition: 300ms;
+}
+div.eti > div >div:nth-of-type(1)>a:hover:nth-of-type(2)>i{
+    font-size: 35px;
+    color: #0077B5;
+    transition: 300ms;
+}
+div.eti > div >div:nth-of-type(1)>a:hover:nth-of-type(3)>i{
+    font-size: 35px;
+    color: #1C9CEA;
+    transition: 300ms;
+}
+div.eti > div >div:nth-of-type(1)>a:hover:nth-of-type(4)>i{
+    font-size: 35px;
+    color: #27A3E2;
+    transition: 300ms;
 }
 div.eti > div >div:nth-of-type(3){
     width: 48px;
@@ -170,6 +204,11 @@ div.dwnl{
     background-color: #3C4B6D;
     text-align: right;
     margin-bottom: 25px;
+    transition: 300ms;
+}
+div.dwnl:hover{
+    transition: 300ms;
+    background-color: #4c649d;
 }
 div.dwnl>img{
     width: 44px;
