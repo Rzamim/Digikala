@@ -32,8 +32,9 @@ div.submenu > div.subi > div:nth-of-type(3) {
   line-height: 20px;
 }
 div.submenu > div.subi > div > a {
-  width: inherit;
-  height: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
   color: black;
 }
 div.submenu > div.subi > div > a > span {
@@ -46,6 +47,9 @@ div.submenu > div.subi > div > a > span > i {
   position: relative;
   top: 3px;
   font-size: 18px;
+}
+div.submenu > div.subi > div:hover{
+  background-color: #f9f9f9;
 }
 div.submenu > div.subi > div:hover > a {
   color: crimson;
